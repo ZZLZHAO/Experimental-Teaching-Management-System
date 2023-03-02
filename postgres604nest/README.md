@@ -1,0 +1,9 @@
+{"name":"PhoneCheckDialog","props":{"width":{"name":"width","type":"String","required":false,"default":"25%"},"
+model":{"name":"model","type":"String","required":false,"default":"bind"},"tip":{"name":"tip","type":"String","
+required":false,"default":"绑定"},"userBindPhone":{"name":"userBindPhone","type":"String","required":false},"
+userMaskPhone":{"name":"userMaskPhone","type":"String","required":false,"default":""},"onClose":{"name":"onClose","
+type":"Function","required":false},"onSuccess":{"name":"onSuccess","type":"Function","required":false}},"events":{"
+close":{"name":"close","desc":"——"},"phone:valid":{"name":"phone:valid","desc":"——"}},"methods":{"close":{"name":"close"
+,"async":false},"onBindPhoneWinOpen":{"name":"onBindPhoneWinOpen","async":false},"onBindPhoneWinClose":{"name":"
+onBindPhoneWinClose","async":false},"onBindPhoneConfirm":{"name":"onBindPhoneConfirm","async":false},"sendPhoneVcode":{"
+name":"sendPhoneVcode","async":false},"validPhone":{"name":"validPhone","async":false}},"mocks":[]}
